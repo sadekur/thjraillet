@@ -66,6 +66,23 @@
 					"slug": "stolzl",
 					"name": "Heading - Stolzl"
 				}
+			],
+			"fontSizes": [
+				{
+					"slug": "small",
+					"size": "0.64rem",
+					"name": "Small"
+				},
+				{
+					"slug": "medium",
+					"size": "0.8rem",
+					"name": "Medium"
+				},
+				{
+					"slug": "regular",
+					"size": "1rem",
+					"name": "Regular"
+				}
 			]
 		},
 		"custom": {
@@ -78,6 +95,12 @@
 					"heading-5": "clamp(1.063rem, 1.0255999999999998rem + 0.18700000000000006vw, 1.25rem)",
 					"heading-6": "clamp(1.063rem, 1.0255999999999998rem + 0.18700000000000006vw, 1.25rem)"
 				}
+			},
+			"line-height": {
+				"tiny": "1.15",
+				"medium": "1.3",
+				"small": "1.4",
+				"normal": "1.6"
 			}
 		}
 	},
@@ -92,7 +115,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--stolzl)",
 					"fontWeight": "800",
-					"lineHeight": "1.3",
+					"lineHeight": "var(--wp--custom--line-height--small)",
 					"fontSize": "var(--wp--custom--typography--font-size--heading-1)"
 				}
 			},
@@ -100,7 +123,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--stolzl)",
 					"fontWeight": "800",
-					"lineHeight": "1.3",
+					"lineHeight": "var(--wp--custom--line-height--small)",
 					"fontSize": "var(--wp--custom--typography--font-size--heading-2)"
 				}
 			},
@@ -108,7 +131,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--stolzl)",
 					"fontWeight": "800",
-					"lineHeight": "1.3",
+					"lineHeight": "var(--wp--custom--line-height--small)",
 					"fontSize": "var(--wp--custom--typography--font-size--heading-3)"
 				}
 			},
@@ -116,7 +139,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--stolzl)",
 					"fontWeight": "800",
-					"lineHeight": "1.3",
+					"lineHeight": "var(--wp--custom--line-height--small)",
 					"fontSize": "var(--wp--custom--typography--font-size--heading-4)"
 				}
 			},
@@ -124,7 +147,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--stolzl)",
 					"fontWeight": "800",
-					"lineHeight": "1.3",
+					"lineHeight": "var(--wp--custom--line-height--small)",
 					"fontSize": "var(--wp--custom--typography--font-size--heading-5)"
 				}
 			},
@@ -132,7 +155,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--stolzl)",
 					"fontWeight": "800",
-					"lineHeight": "1.3",
+					"lineHeight": "var(--wp--custom--line-height--small)",
 					"fontSize": "var(--wp--custom--typography--font-size--heading-6)"
 				}
 			}
